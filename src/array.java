@@ -14,14 +14,17 @@ public class array
             {
                 System.out.println("Enter an integer between 0 and 50.");
                 input[i] = scan.nextInt();
-                output =+  input[i] + " ";
+
                 if (input[i] < 0 || input[i] > 50)
                 {
                     System.out.println("Please enter a valid number");
                     input[i] = scan.nextInt();
-                    output =+  input[i] + " ";
+                    output +=  input[i] + ", ";
                 }
-
+                else
+                    {
+                    output += input[i] + ", ";
+                }
             }//end the for loop
         System.out.println(output);
 
