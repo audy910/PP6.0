@@ -20,11 +20,11 @@ public class array
                     System.out.println("Please enter a valid number");
                     input[i] = scan.nextInt();
                     output +=  input[i] + ", ";
-                }
+                }//end if
                 else
                     {
                     output += input[i] + ", ";
-                }
+                }//end else
             }//end the for loop
         System.out.println(output);
 
